@@ -4,13 +4,13 @@ const { uuid } = require("uuidv4");
 const app = express();
 
 app.use(express.json());
-
+//app.use('/api', Anyroute)
 const projects = [];
 
 /** métodos http
  * Get: buscar infos do back
- * post: criar info no back
- * put/patch:  alterar uma informação no back
+ * post: criar info no back - adicionar
+ * put/patch:  alterar uma informação no back - 
  * delete: deletar infos no back
  */
 /** parâmetros
